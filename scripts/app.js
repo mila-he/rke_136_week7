@@ -24,6 +24,7 @@ btn.addEventListener('click', () => {
     localStorage.setItem('imageUrl', posterUrlInput);
     localStorage.setItem('year', movieReleaseYearInput);
     movieTitleToDisplay.textContent = movieTitleInput;
+    movieYearToDisplay.textContent = movieReleaseYearInput;
     container.style.backgroundImage = `linear-gradient(rgba(9, 9, 56, 0.263), rgba(178, 159, 159, 0.352)),
     url('${posterUrlInput}')`;
     movieTitle.value = '';
